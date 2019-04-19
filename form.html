@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your choose</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><b><i>Main page</i></b></a>
+        <h1>Please choose your favorite company</h1>
+        <figure>
+            <img src="image/logo.jpg" alt="logo.jpg" width="500" height="300" />
+        </figure>
+    </header>
+    <section>
+        <h2>Client Form </h2>
+        <form method="POST" action="https://formspree.io/skromnik9@gmail.com">
+            <label for="client-name">Name:</label>
+            <input type="text" placeholder="Name" id="client-name" name="client-name" required>
+            <br>
+            <label>
+              Email:<input type="email" name="client-email" placeholder="Email" required>
+              </label>
+            <br>
+            <label>Comics Company:</label>
+            <label><input type="radio" value="Marvel" name="Comics Company" checked> Marvel</label>
+            <label><input type="radio" value="DC" name="Comics Company"> DC</label>
+            <label><input type="radio" value="Other" name="Comics Company"> Other</label>
+            <br>
+            <label>Favorite hero Marvel:</label>
+            <label><input type="radio" value="Capitan America" name="Favorite hero Marvel:" checked> Capitan America</label>
+            <label><input type="radio" value="Wolverine" name="Favorite hero Marvel:"> Wolverine</label>
+            <label><input type="radio" value="Spider-Man" name="Favorite hero Marvel:"> Spider-Man</label>
+            <label><input type="radio" value="Thor" name="Favorite hero Marvel:"> Thor</label>
+            <label><input type="radio" value="Iron Man" name="Favorite hero Marvel:"> Iron Man</label>
+            <label><input type="radio" value="Hulk" name="Favorite hero Marvel:"> Hulk</label>
+            <label><input type="radio" value="Daredevil" name="Favorite hero Marvel:"> Daredevil</label>
+            <br>
+            <label>Favorite hero DC:</label>
+            <label><input type="radio" value="Superman" name="Favorite hero DC:" checked> Superman</label>
+            <label><input type="radio" value="Wonder Woman" name="Favorite hero DC:"> Wonder Woman</label>
+            <label><input type="radio" value="Batman" name="Favorite hero DC:"> Batman</label>
+            <label><input type="radio" value="Constantine" name="Favorite hero DC:"> Constantine</label>
+            <label><input type="radio" value="Mera" name="Favorite hero DC:"> Mera</label>
+            <label><input type="radio" value="Hawkgirl" name="Favorite hero DC:"> Hawkirl</label>
+            <label><input type="radio" value="Nightwing" name="Favorite hero DC:"> Nightwing</label>
+            <br>
+            <label>Favorite villain Marvel:</label>
+            <label><input type="radio" value="Doctor Doom" name="Favorite villain Marvel:" checked> Doctor Doom</label>
+            <label><input type="radio" value="Magneto" name="Favorite villain Marvel:"> Magneto</label>
+            <label><input type="radio" value="Norman Osborn" name="Favorite villain Marvel:"> Norman Osborn</label>
+            <label><input type="radio" value="Red Skull" name="Favorite villain Marvel:"> Red Skull</label>
+            <label><input type="radio" value="Loki" name="Favorite villain Marvel:"> Loki</label>
+            <label><input type="radio" value="Galactus" name="Favorite villain Marvel:"> Galactus</label>
+            <label><input type="radio" value="Thanos" name="Favorite villain Marvel:"> Thanos</label>
+            <br>
+            <label>Favorite villain DC:</label>
+            <label><input type="radio" value="Joker" name="Favorite villain DC:" checked> Joker</label>
+            <label><input type="radio" value="Lex Luthor" name="Favorite villain DC:"> Lex Luthor</label>
+            <label><input type="radio" value="Darkseid" name="Favorite villain DC:"> Darkseid</label>
+            <label><input type="radio" value="Sinestro" name="Favorite villain DC:"> Sinestro</label>
+            <label><input type="radio" value=" Brainiac" name="Favorite villain DC:">  Brainiac</label>
+            <label><input type="radio" value="Black Adam" name="Favorite villain DC:"> Black Adam</label>
+            <label><input type="radio" value="Doomsday" name="Favorite villain DC:"> Doomsday</label>
+            <br>
+            <label>
+                Your Comment:
+            <br>
+                <textarea name="comments"></textarea>
+            </label>
+            <br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </section>
+</body>
+
+</html>
